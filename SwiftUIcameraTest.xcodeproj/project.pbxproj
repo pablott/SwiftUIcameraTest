@@ -11,6 +11,7 @@
 		13D08F81258BA73E00556B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D08F80258BA73E00556B30 /* ContentView.swift */; };
 		13D08F83258BA74000556B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D08F82258BA74000556B30 /* Assets.xcassets */; };
 		13D08F86258BA74000556B30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D08F85258BA74000556B30 /* Preview Assets.xcassets */; };
+		13D08F8F258BA82400556B30 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D08F8E258BA82400556B30 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		13D08F82258BA74000556B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D08F85258BA74000556B30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13D08F87258BA74000556B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D08F8E258BA82400556B30 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				13D08F7E258BA73E00556B30 /* SwiftUIcameraTestApp.swift */,
+				13D08F8E258BA82400556B30 /* ImagePicker.swift */,
 				13D08F80258BA73E00556B30 /* ContentView.swift */,
 				13D08F82258BA74000556B30 /* Assets.xcassets */,
 				13D08F87258BA74000556B30 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D08F8F258BA82400556B30 /* ImagePicker.swift in Sources */,
 				13D08F81258BA73E00556B30 /* ContentView.swift in Sources */,
 				13D08F7F258BA73E00556B30 /* SwiftUIcameraTestApp.swift in Sources */,
 			);
