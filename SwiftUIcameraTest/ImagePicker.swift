@@ -19,6 +19,9 @@ struct ImagePicker: UIViewControllerRepresentable {
         let imagePicker = UIImagePickerController()
         imagePicker.allowsEditing = false
         imagePicker.sourceType = sourceType
+        // TODO: add an overlay
+//        imagePicker.cameraOverlayView
+//        imagePicker.cameraViewTransform
         
         imagePicker.delegate = context.coordinator
         
